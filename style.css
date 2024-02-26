@@ -1,0 +1,56 @@
+:root{
+    --cor_botao_clicado: rgb(129, 68, 129);
+    --cor_fundo: rgb(199, 179, 199);
+    --cor_titulo: rgb(0, 0, 0);
+
+}
+.h1{
+    color: var(--cor_titulo);
+
+}
+header{
+    grid-area: cabe;
+}
+footer{
+    grid-area: roda;
+}
+
+
+
+h1:hover{
+    color: white;
+}
+body{
+    background-color: var(--cor_fundo);
+    
+  
+}
+section{
+   
+    text-align: center;
+    padding: 10px;
+    margin: 40px;
+    height: 1000px;
+    border: solid white 5px;
+    
+   
+    
+}
+
+button{
+    padding: 10px;
+    border: solid rgb(255, 255, 255) 2px;
+    background-color: rgb(239, 220, 252);
+    border-radius: 5px;
+    margin: 30px;
+
+}
+button:hover{
+    background-color: rgb(229, 200, 248);;
+
+}
+header{
+    text-align: center;
+}
+
+
